@@ -15,8 +15,6 @@
 
 ---
 
-# 🌲🔥 Forest Fires — Climate Risk & Disaster Management (Week 1 & 2)
-
 ## 📌 Project Summary
 This repository is part of the **AICTE / Edunet Foundation** internship *Climate Risk & Disaster Management*.  
 We analyze the **Forest Fires** dataset to explore how weather, time, and location affect wildfire occurrence and burned area. The work covers **Week 1 (initial EDA)** and **Week 2 (deeper EDA, data transformation, feature selection)**.
@@ -103,4 +101,5 @@ jupyter notebook
 - AICTE & Edunet Foundation — internship & mentoring sessions.
 
 - Kaggle — dataset source.
+
 
