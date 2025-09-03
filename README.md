@@ -5,7 +5,7 @@
 
 <div align="center">
 
-![Project](https://img.shields.io/badge/Project-Forest%20Fires%20EDA-blue?style=for-the-badge)
+![Project](https://img.shields.io/badge/Project-Forest%20Fire%20Risk-blue?style=for-the-badge)
 ![Week2](https://img.shields.io/badge/Week-1%20%26%202-yellow?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python)
 ![Pandas](https://img.shields.io/badge/Library-Pandas-orange?style=for-the-badge&logo=pandas)
@@ -86,7 +86,7 @@ We analyze the **Forest Fires** dataset to explore how weather, time, and locati
    source venv/bin/activate
    # windows (cmd)
    venv\Scripts\activate
-```
+   ```
 
 2.Install dependencies:
 ```bash
@@ -103,3 +103,4 @@ jupyter notebook
 - AICTE & Edunet Foundation — internship & mentoring sessions.
 
 - Kaggle — dataset source.
+
