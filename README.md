@@ -16,7 +16,6 @@
 ---
 
 ## 📌 Project Summary
-This repository is part of the **AICTE / Edunet Foundation** internship *Climate Risk & Disaster Management*.  
 We analyze the **Forest Fires** dataset to explore how weather, time, and location affect wildfire occurrence and burned area. The work covers **Week 1 (initial EDA)** and **Week 2 (deeper EDA, data transformation, feature selection)**.
 
 ---
@@ -86,20 +85,21 @@ We analyze the **Forest Fires** dataset to explore how weather, time, and locati
    venv\Scripts\activate
    ```
 
-2.Install dependencies:
+2. Install dependencies:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn notebook
 ```
 
-3.Start Jupyter:
+3. Start Jupyter:
 ```bash
 jupyter notebook
 ```
 
-## 🙌 Acknowledgments
+## 🙌 Credits  
 
-- AICTE & Edunet Foundation — internship & mentoring sessions.
+- **Ardhaya Johari** – Project Author
+- **Edunet Foundation-Shell(Climate Risk & Disaster Management)** – For providing guidance and project framework  
+- **Mentors & Session Recordings** – For EDA, data transformation, and feature selection guidance  
 
-- Kaggle — dataset source.
 
 
