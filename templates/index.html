@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wildfire Monitoring System</title>
+<link rel="stylesheet" href="/static/style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>🔥 Forest Fire Risk</h1>
+</header>
+
+<main>
+    <aside id="sidebar">
+        <h2>Inputs</h2>
+        <form id="fireForm">
+            <label>Month</label>
+            <select name="month">
+                <option value="jan">Jan</option><option value="feb">Feb</option><option value="mar">Mar</option>
+                <option value="apr">Apr</option><option value="may">May</option><option value="jun">Jun</option>
+                <option value="jul">Jul</option><option value="aug">Aug</option><option value="sep">Sep</option>
+                <option value="oct">Oct</option><option value="nov">Nov</option><option value="dec">Dec</option>
+            </select>
+
+            <label>Day</label>
+            <select name="day">
+                <option value="mon">Mon</option><option value="tue">Tue</option><option value="wed">Wed</option>
+                <option value="thu">Thu</option><option value="fri">Fri</option><option value="sat">Sat</option>
+                <option value="sun">Sun</option>
+            </select>
+
+            <label>X</label><input type="number" step="0.01" name="X" required>
+            <label>Y</label><input type="number" step="0.01" name="Y" required>
+            <label>FFMC</label><input type="number" step="0.1" name="FFMC" required>
+            <label>DMC</label><input type="number" step="0.1" name="DMC" required>
+            <label>DC</label><input type="number" step="0.1" name="DC" required>
+            <label>ISI</label><input type="number" step="0.1" name="ISI" required>
+            <label>Temp</label><input type="number" step="0.1" name="temp" required>
+            <label>RH</label><input type="number" step="0.1" name="RH" required>
+            <label>Wind</label><input type="number" step="0.1" name="wind" required>
+            <label>Rain</label><input type="number" step="0.1" name="rain" required>
+
+            <button type="submit">Predict Fire</button>
+            <button type="button" id="forecastBtn">Forecast Risk</button>
+        </form>
+
+        <h3>History</h3>
+        <ul id="history"></ul>
+    </aside>
+
+    <section id="dashboard">
+        <div id="riskSummary">
+            <h3>Current Fire Risk</h3>
+            <span>--</span>
+        </div>
+
+        <div id="chartsRow">
+            <div class="chartBox"><canvas id="probChart"></canvas></div>
+            <div class="chartBox"><canvas id="trendChart"></canvas></div>
+        </div>
+
+        <div id="mapContainer">
+            <div id="map"></div>
+        </div>
+    </section>
+</main>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ML models (optional: upload externally if large)
+models/*.joblib
+
+# Dataset (optional: upload externally if large or sensitive)
+data/wildfire_cleaned.csv
+
+# Environment variables
+.env
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node/Vite build files (if using frontend)
+node_modules/
+dist/

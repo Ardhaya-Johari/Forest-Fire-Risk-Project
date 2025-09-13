@@ -1,0 +1,28 @@
+* { box-sizing: border-box; margin:0; padding:0; }
+body { font-family: 'Segoe UI', sans-serif; display:flex; flex-direction:column; background:#0d0d0d; color:#fff; }
+header { text-align:center; padding:15px; background:#1a1a1a; border-bottom:2px solid #b30000; }
+header h1 { color:#ff3333; }
+
+main { display:flex; flex:1; height:calc(100vh - 60px); overflow:hidden; }
+
+#sidebar {
+    width:300px; background:#1a1a1a; padding:20px; overflow-y:auto; border-right:2px solid #b30000;
+}
+#sidebar h2 { color:#ff3333; margin-bottom:15px; }
+#sidebar label { display:block; margin:10px 0 5px; font-weight:bold; }
+#sidebar input, #sidebar select { width:100%; padding:6px; margin-bottom:10px; border-radius:5px; border:1px solid #333; background:#262626; color:#fff; }
+#sidebar button { width:100%; padding:10px; margin-top:8px; background:#b30000; border:none; border-radius:6px; color:#fff; cursor:pointer; font-weight:bold; transition:0.3s; }
+#sidebar button:hover { background:#e60000; }
+#history { list-style:none; padding-left:0; font-size:0.9em; }
+#history li { padding:5px 8px; background:#262626; margin:5px 0; border-radius:5px; }
+
+#dashboard { flex:1; display:flex; flex-direction:column; padding:15px; overflow:hidden; }
+
+#riskSummary { text-align:center; padding:20px; background:#262626; border:2px solid #b30000; border-radius:8px; margin-bottom:15px; display:flex; flex-direction:column; justify-content:center; align-items:center; box-shadow:0 0 10px rgba(255,0,0,0.5); }
+#riskSummary span { font-size:2em; font-weight:bold; color:#ff4d4d; }
+
+#chartsRow { display:grid; grid-template-columns:1fr 1fr; gap:15px; margin-bottom:15px; }
+.chartBox { background:#1a1a1a; padding:10px; border-radius:8px; border:1px solid #333; }
+
+#mapContainer { flex:1; }
+#map { width:100%; height:100%; border:2px solid #333; border-radius:8px; }
