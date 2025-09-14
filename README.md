@@ -3,7 +3,7 @@
 # 🌲🔥 FOREST FIRE RISK PREDICTION SYSTEM
 ### *AI-Powered Fire Detection & Risk Assessment Platform*
 
-![Python](https://img.shields.io/badge/🐍%20Python-3.10-blue?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/🐍%20Python-3.12-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/⚡%20Flask-Backend-green?style=for-the-badge&logo=flask&logoColor=white)
 ![Accuracy](https://img.shields.io/badge/🎯%20Accuracy-95%25-green?style=for-the-badge&logoColor=white)
 ![Dataset](https://img.shields.io/badge/📊%20Data-517%2B%20Records-purple?style=for-the-badge&logoColor=white)
