@@ -61,7 +61,9 @@ forest-fire-risk/
 │   └── index.html
 ├── README.md
 ├── .gitignore
-└── .gitattributes
+├── .gitattributes
+└── requirements.txt
+
 
 ```
 
@@ -152,7 +154,8 @@ forest-fire-risk/
 │   └── index.html
 ├── README.md
 ├── .gitignore
-└── .gitattributes
+├── .gitattributes
+└── requirements.txt
 
 ```
 
