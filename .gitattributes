@@ -1,3 +1,0 @@
-# Ignore dataset files from language stats
-data/forestfires.csv linguist-vendored
-data/wildfire_cleaned.csv linguist-vendored
