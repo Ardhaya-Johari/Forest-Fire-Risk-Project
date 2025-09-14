@@ -46,19 +46,23 @@ The **Forest Fire Risk Prediction System** uses **historical fire data** and **e
 ```
 forest-fire-risk/
 ├── app.py
-├── forestfires.csv
 ├── data/
+│   ├── forestfires.csv
 │   └── wildfire_cleaned.csv
 ├── models/
 │   ├── model_columns.joblib
 │   └── rf_clf_pipeline.joblib
+├── notebook/
+│   └── Week1_and_2.ipynb
 ├── static/
 │   ├── script.js
 │   └── style.css
 ├── templates/
 │   └── index.html
-├── Week1_and_2.ipynb
-└── README.md
+├── README.md
+├── .gitignore
+└── .gitattributes
+
 ```
 
 ---
@@ -131,22 +135,24 @@ python app.py
 ## 🏗️ **PROJECT ARCHITECTURE**
 
 ```
-Forest-Fire-Risk-Prediction/
+forest-fire-risk/
+├── app.py
 ├── data/
-│   ├── wildfire_cleaned.csv
-│   └── forestfires.csv
+│   ├── forestfires.csv
+│   └── wildfire_cleaned.csv
 ├── models/
-│   ├── rf_clf_pipeline.joblib
-│   └── model_columns.joblib
+│   ├── model_columns.joblib
+│   └── rf_clf_pipeline.joblib
+├── notebook/
+│   └── Week1_and_2.ipynb
 ├── static/
-│   ├── style.css
-│   └── script.js
+│   ├── script.js
+│   └── style.css
 ├── templates/
 │   └── index.html
-├── Week1_and_2.ipynb
-├── app.py
-├── requirements.txt
-└── README.md
+├── README.md
+├── .gitignore
+└── .gitattributes
 
 ```
 
