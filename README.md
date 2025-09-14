@@ -1,5 +1,3 @@
-# README.md
-
 <div align="center">
 
 # 🌲🔥 FOREST FIRE RISK PREDICTION SYSTEM
