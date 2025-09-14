@@ -9,8 +9,6 @@
 ![Dataset](https://img.shields.io/badge/📊%20Data-517%2B%20Records-purple?style=for-the-badge&logoColor=white)
 ![Notebook](https://img.shields.io/badge/📓%20EDA%20Notebook-Week1_and_2-blueviolet?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Model](https://img.shields.io/badge/🤖%20ML%20Model-RF%20Pipeline-orange?style=for-the-badge&logoColor=white)
-![GitHub Stars](https://img.shields.io/github/stars/your-username/forest-fire-risk?style=for-the-badge&logo=github)
-![GitHub Forks](https://img.shields.io/github/forks/your-username/forest-fire-risk?style=for-the-badge&logo=github)
 ![License](https://img.shields.io/badge/📄%20License-MIT-blue?style=for-the-badge&logo=opensourceinitiative)
 
 ```ascii
